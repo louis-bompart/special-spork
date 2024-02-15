@@ -28,5 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Test
         run: |
-          cd C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64
+          cd "C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64"
           ls
